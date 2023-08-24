@@ -1,3 +1,18 @@
-.container__frase {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+@import url(styles/header.css);
+
+:root{
+    --cor-de-fundo: #ccff00;
+    --cor-cabecalho: #390979;
+}
+
+@import url(styles/header.css);
+
+:root{
+    --cor-de-fundo: #ccff00;
+    --cor-cabecalho: #390979;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    margin: 0;
 }
